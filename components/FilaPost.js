@@ -1,4 +1,4 @@
-class Post {
+class FilaPost {
 
     constructor(publicacionUsuario){
         this.publicacionUsuario = publicacionUsuario;
