@@ -5,18 +5,16 @@ const respuestasContainer = document.getElementById('respuestasContainer'); //pa
 
 const database = firebase.database();
 
-//funciones
-
 publicar = () => {
 
-    if(nombreUsuario.value === ''|| postUsuario ===''){ //hace que no permita seguir sino se llenan los espacios
+    if(nombreUsuario.value === ''|| postUsuario ===''){ 
         alert('Campo Vacio');
         return;
     }
 
     let referencia = database.ref('usuarios/blog').push();
     let publicacionUsuario = {
-        id: referencia.key, //extraer referencia que nos da el push
+        id: referencia.key, 
         usuario: nombreUsuario.value,
         post: postUsuario.value,
     };
