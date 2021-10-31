@@ -1,0 +1,55 @@
+#publicacion {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#respuestas {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.filaFeed {
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    justify-content: center;
+    align-items: center;
+    background: rgb(228, 228, 228);
+    border-radius: 6px;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    position: relative;
+    
+}
+
+.nombreFeed {
+    font-size: 10px;
+    margin-left: 220px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.botonResponderPost{
+    position: absolute;
+    margin-top: 33px;
+    margin-left: 230px;
+}
+
+.inputResponderPost{
+    width: 16em;
+    margin-left: -85px;
+}
+
+.comentarios {
+    
+}
